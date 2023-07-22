@@ -3,7 +3,7 @@ import React from 'react'
 function Blog_hero() {
     const h1Styles = {
         color: 'white',
-        fontSize: '3rem',
+        fontSize: '5rem',
       };
     
       const spanStyles = {
@@ -27,7 +27,7 @@ function Blog_hero() {
     <div
     className="hero-section"
     style={{
-      backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/home/back1.jpg')",
+      backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/images/home/back2.jpg')",
       height: '60vh',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
