@@ -1,0 +1,31 @@
+/* About_Quality.css */
+.container-top,
+.container-middle,
+.container-bottom {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container-middle h1,
+.container-bottom h1 {
+  color: #E97451;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.container-top h1 {
+  color: #E97451;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.container-top p,
+.container-middle p,
+.container-bottom p {
+  font-size: 1rem;
+  color: #333;
+}

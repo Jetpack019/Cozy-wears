@@ -1,0 +1,67 @@
+/* Add this CSS to your stylesheets */
+/* You can adjust the styles as needed */
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+  }
+  
+ 
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-item-type {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-info {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-quantity {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-quantity button {
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: #E97451;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-item-quantity button:hover {
+    background-color: #c24f38;
+  }
+  
+  .cart-item-quantity span {
+    margin: 0 10px;
+  }
+  
+  .cart-item-actions button {
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: #9E7451;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-item-actions button:hover {
+    background-color: #855c3d;
+  }
+  

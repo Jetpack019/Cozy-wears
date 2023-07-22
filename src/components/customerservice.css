@@ -1,0 +1,37 @@
+/* About_CustomerService.css */
+
+
+  
+  .container-image {
+    width: 100%; /* Adjust the image width as needed */
+    height: 400px; /* Adjust the image height as needed */
+  
+  }
+  
+  .main-heading {
+    text-align: center;
+    color: #E97451;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  /* customerservice.css */
+
+/* ... (existing styles) */
+
+.learn-more-btn {
+    background-color: #E97451;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  
+    align-self: center;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #D7603F;
+  }
+  

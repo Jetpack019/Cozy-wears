@@ -1,0 +1,39 @@
+/* UserProfile.css */
+
+.profile-container {
+    padding: 30px;
+  }
+  
+  .avatar-background {
+    background-image: url('https://example.com/path/to/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    /* Add additional styles for your avatar (e.g., border, image, etc.) */
+  }
+  
+  .user-info {
+    padding-top: 20px;
+  }
+  
+  .user-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .user-info p {
+    font-size: 1.2rem;
+  }
+  

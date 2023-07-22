@@ -1,0 +1,64 @@
+/* Footer.css */
+.footer-container {
+    background-color: #E97451;
+    padding: 40px 0;
+  }
+  
+  .footer-container h4 {
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-container ul li {
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .footer-container ul li:hover {
+    color:  rgb(163, 73, 48);
+  }
+  
+  .footer-container input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    color: #E97451;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .footer-container button {
+    background-color: white;
+    color: #E97451;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-container button:hover {
+    background-color: rgb(163, 73, 48);
+  }
+  
+  .footer-container .social-icons {
+    font-size: 1.5rem;
+  }
+  
+  .footer-container .icon {
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .footer-container .social-icons i:hover {
+    color: #E97451;
+  }
+  

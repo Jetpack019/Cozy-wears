@@ -1,0 +1,20 @@
+
+.avatar {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    
+  }
+  .avatar img{
+    width: 300px;
+    height: 250px;
+  }
+  .name-tag {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  

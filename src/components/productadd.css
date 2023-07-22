@@ -1,0 +1,37 @@
+/* Product Info Section */
+.product-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #E97451;
+  }
+  
+  .product-info .lead {
+    color: #E97451;
+    font-size: 1rem;
+  }
+  
+  /* Checkbox Styles */
+  .form-group{
+    display: flex;
+  
+}
+ 
+  /* Buttons */
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+  
+  .buttons button:last-child {
+    margin-right: 0;
+  }
