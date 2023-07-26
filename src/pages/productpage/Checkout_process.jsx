@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import { useCart } from './CartContent';
 import '../../components/checkout.css';
+import CheckoutNavbar from '../../components/navbar_checkout';
 
 function CheckoutProcess() {
   const [creditCardNumber, setCreditCardNumber] = useState('');
@@ -45,6 +46,8 @@ function CheckoutProcess() {
   };
 
   return (
+    <div>
+      <CheckoutNavbar/>
     <Container>
       <h2>Checkout Process</h2>
 
@@ -119,6 +122,7 @@ function CheckoutProcess() {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 }
 

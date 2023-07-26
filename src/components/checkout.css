@@ -37,5 +37,29 @@
   
   .cart-item-price {
     font-weight: bold;
+    display: flex;
+  }
+  .cart-item-details{
+      padding: 10px;
+  }
+  .cart-item-image {
+    height: 300px;
+    width: 300px;
   }
   
+  /* Media query for screens with a minimum width of 769px (laptop mode) */
+@media screen and (max-width: 960px) {
+  .cart-item-image {
+    /* Adjust the height and width for laptop screens */
+    height: 350px;
+    width: 350px;
+  }
+}
+  /* Media query for screens with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+    .cart-item-image {
+      /* Adjust the height and width for smaller screens */
+      height: 200px;
+      width: 200px;
+    }
+  }
