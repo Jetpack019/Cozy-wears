@@ -8,7 +8,7 @@ Easy and convenient online shopping experience
 Fast and reliable shipping
 Secure checkout process
 Getting Started
-To start shopping at CozyWears, simply visit our website at www.cozywears.com](https://cozywears.jaderossbanag.repl.co ↗. Browse our selection of loungewear and add items to your cart. When you're ready to checkout, enter your shipping and payment information and we'll take care of the rest!
+To start shopping at CozyWears, simply visit our website at cozywears.jaderossbanag.repl.co↗. Browse our selection of loungewear and add items to your cart. When you're ready to checkout, enter your shipping and payment information and we'll take care of the rest!
 
 Contributing
 We welcome contributions from the open source community! If you have any ideas for new features or improvements, please submit a pull request or open an issue on our GitHub repository.
