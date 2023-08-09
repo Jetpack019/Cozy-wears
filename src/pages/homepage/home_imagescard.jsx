@@ -12,7 +12,7 @@ function HomeImageCard() {
     <div>
       <div className="container" style={{ marginTop: '120px', minHeight: '100vh' }}>
         <div className="text-center">
-          <h1 style={h1Styles}>ABOUT FASHION</h1>
+          <h1 style={h1Styles}>CASUAL COMFORT</h1>
         </div>
         <div className="row mt-4">
           <div className="col-md-4 mb-4">
