@@ -12,8 +12,8 @@ function HomeIntro() {
   };
   return (
     <div className="container mt-5">
-      <div className="row align-items-center">
-        <div className="col-md-6 col-lg-4 col-xl-3" style={{flex: 0.6}}>
+      <div className="row align-items-center" style={{padding:'0 40px'}}>
+        <div className="col-md-5 col-lg-5" >
           <h1 style={h1Styles} class="h1">Cozy Fashion: Where Comfort Meets Style.</h1>
           <p style={pstyles} class="lead">
             Comfortable and stylish clothing is no longer mutually exclusive, thanks to the latest
@@ -26,7 +26,7 @@ function HomeIntro() {
             src="images/home/home2.png"
             className="img-fluid"
             alt=""
-            style={{ width: '100%', maxWidth: '600px',flex: 0.5  }}
+            style={{ width: '100%', maxWidth: '600px' }}
           />
         
       </div>

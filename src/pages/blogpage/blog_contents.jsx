@@ -2,6 +2,8 @@ import React from 'react';
 
 function Blog_contents() {
   // Dummy data for the blog content
+
+  
   const blogContentData = [
     {
       image: 'images/blogs/blog_styles.jpg',
