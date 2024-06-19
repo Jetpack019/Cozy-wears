@@ -53,7 +53,7 @@ function CheckoutNavbar() {
 
   return (
     <Navbar expand="lg" expanded={expanded} style={{ backgroundColor: "#E97451", }}>
-      <Navbar.Brand as={NavLink} to="/" style={backArrowStyles}>
+      <Navbar.Brand as={NavLink} to="/products" style={backArrowStyles}>
         <FaArrowLeft style={{ fontSize: '1.5rem' }} />
       </Navbar.Brand>
  

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import { FaShoppingCart, FaArrowLeft } from 'react-icons/fa';
+import { FaShoppingBasket, FaArrowLeft } from 'react-icons/fa';
 import '../css/customnavbar.css';
 import { useCart } from '../pages/productpage/CartContent';
 
@@ -60,8 +60,8 @@ function CartNavbar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mx-auto">
         <Nav className="ml-4">
-          <Nav.Link href="/addtocart" style={cartIconStyles}>
-            <FaShoppingCart style={{ fontSize: '1.5rem' }} />
+          <Nav.Link href="/checkout" style={cartIconStyles}>
+            <FaShoppingBasket style={{ fontSize: '1.5rem' }} />
             {cartItemCount > 0 && <span style={cartItemCountStyles}>{cartItemCount}</span>}
           </Nav.Link>
         </Nav>

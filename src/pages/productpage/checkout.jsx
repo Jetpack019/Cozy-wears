@@ -28,7 +28,7 @@ function CheckoutPage({ cartItems, onIncreaseQuantity, onDecreaseQuantity, remov
               <p>
                 Quantity:
                 <button onClick={() => onDecreaseQuantity(item.id)} disabled={item.quantity === 1}>
-                  -
+                  -                  
                 </button>
                 {item.quantity}
                 <button onClick={() => onIncreaseQuantity(item.id)}>+</button>
